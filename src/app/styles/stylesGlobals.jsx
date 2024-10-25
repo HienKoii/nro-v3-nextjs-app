@@ -1,0 +1,6 @@
+import styled from "styled-components";
+
+export const ContainerMain = styled.div`
+  border-radius: 10px;
+  box-shadow: 0 0 15px #66ffff;
+`;
