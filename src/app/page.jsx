@@ -1,11 +1,10 @@
 "use client";
-import { Button } from "react-bootstrap";
+import ListPosts from "@/components/posts/listPosts";
 
 export default function Home() {
   return (
-    <div>
-      <h1>Chào mừng đến với Next.js!</h1>
-      <Button variant="primary">Nhấn vào đây</Button>
-    </div>
+    <>
+      <ListPosts />
+    </>
   );
 }
