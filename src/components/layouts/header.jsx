@@ -14,8 +14,8 @@ export default function Header() {
       </div>
       <Logo w={250} />
       <Divider />
-      {/* <AuthDefault /> */}
-      <AuthLogin />
+      <AuthDefault />
+      {/* <AuthLogin /> */}
     </BoxPage>
   );
 }
